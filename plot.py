@@ -74,5 +74,7 @@ class DiceDistributionChart:
         plt.show()
 
 
+# Input Your Number of rolls and Number of sides
+# of the Die and watch the results:
 chart_1 = DiceDistributionChart(num_rolls=5000, num_sides=15)
 chart_1.update()
